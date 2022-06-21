@@ -7,13 +7,7 @@ export default function Layout() {
     <div className={styles.navs}>
       <ul>
         <li>
-          <Link to="/">mint nft</Link>
-        </li>
-        <li>
-          <Link to="/docs">Docs</Link>
-        </li>
-        <li>
-          <a href="https://github.com/umijs/umi">Github</a>
+          <Link to="/"></Link>
         </li>
       </ul>
       <Outlet />
